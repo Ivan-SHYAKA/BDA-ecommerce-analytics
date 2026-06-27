@@ -1,4 +1,4 @@
-\# Distributed Multi-Model Analytics for E-commerce Data
+# Distributed Multi-Model Analytics for E-commerce Data
 
 
 
@@ -6,7 +6,7 @@ Big Data Analytics Final Project — a multi-model analytics system for a simula
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,7 +14,7 @@ This project analyzes 90 days of simulated e-commerce activity (10,000 users, 5,
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -50,11 +50,11 @@ This project analyzes 90 days of simulated e-commerce activity (10,000 users, 5,
 
 
 
-\## Setup Instructions
+## Setup Instructions
 
 
 
-\### 1. Generate the dataset
+### 1. Generate the dataset
 
 ```bash
 
@@ -68,7 +68,7 @@ This produces `users.json`, `products.json`, `categories.json`, `transactions.js
 
 
 
-\### 2. MongoDB
+### 2. MongoDB
 
 Requires MongoDB Community Server installed and running locally on port 27017.
 
@@ -86,7 +86,7 @@ python mongodb/mongodb\_queries.py
 
 
 
-\### 3. HBase
+### 3. HBase
 
 Requires Docker. Start an HBase container:
 
@@ -124,7 +124,7 @@ python hbase/hbase\_queries.py
 
 
 
-\### 4. Apache Spark
+### 4. Apache Spark
 
 Requires Java 17+ and Spark 3.5.8.
 
@@ -146,7 +146,7 @@ python spark/spark\_integration.py
 
 
 
-\### 5. Visualizations
+### 5. Visualizations
 
 ```bash
 
@@ -158,7 +158,7 @@ python visualizations/visualizations.py
 
 
 
-\## Key Findings
+## Key Findings
 
 
 
@@ -176,7 +176,7 @@ See `report/Technical\_Report.pdf` for the full analysis, methodology, and visua
 
 
 
-\## Notes on Scope
+## Notes on Scope
 
 
 
